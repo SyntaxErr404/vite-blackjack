@@ -1,0 +1,52 @@
+
+.box{
+  height: 100vh;
+  background-color: rgba(49, 156, 49, 0.781);
+}
+.header{
+  background-color: rgb(0, 0, 0);
+  height: 3rem;
+}
+.h1__header{
+  padding-top: 1rem;
+  text-align: center;
+  color: white;
+}
+.ul__nav{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+
+}
+.li__nav{
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color:blue;
+}
+.li__nav-red{
+  border: 0.5px solid black;
+  background-color:red;
+}
+.players{
+  margin: 0 1rem;
+  height: 40vh;
+}
+
+.h2__id{
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+.cards{
+  display: flex;
+  justify-content: flex-start;
+  
+  height: 85%;
+}
+.img{
+  position: relative;
+  left:8.5rem;
+  margin-left: -8.5rem;
+}
